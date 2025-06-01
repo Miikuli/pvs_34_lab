@@ -4,8 +4,8 @@
 LOG_DIR="logs"
 REPEATS=10
 PROCESS_CONFIG=(1 2 4 8 16)  # Конфигурации процессов/потоков
-MPI_EXEC="exp_mpi"
-OMP_EXEC="exp_omp"
+MPI_EXEC="mpi"
+OMP_EXEC="omp"
 MPI_SRC="${MPI_EXEC}.c"
 OMP_SRC="${OMP_EXEC}.c"
 
