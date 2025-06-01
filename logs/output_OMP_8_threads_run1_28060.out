@@ -3,8 +3,8 @@ Subject: Job 28060: <OMP_8_threads_run1> in cluster <kepler.lsf.hpc.local> Done
 
 Job <OMP_8_threads_run1> was submitted from host <mgr.kepler.hpc.local> by user <malkovsin.gmail.com> in cluster <kepler.lsf.hpc.local> at Sun Jun  1 17:43:58 2025
 Job was executed on host(s) <node4.kepler.hpc.local>, in queue <normal>, as user <malkovsin.gmail.com> in cluster <kepler.lsf.hpc.local> at Sun Jun  1 17:44:49 2025
-</home/malkovsin.gmail.com> was used as the home directory.
-</home/malkovsin.gmail.com/Documents/newlab3> was used as the working directory.
+</home/mikova.yulya09.gmail.com> was used as the home directory.
+</home/mikova.yulya09.gmail.com/Documents/newlab3> was used as the working directory.
 Started at Sun Jun  1 17:44:49 2025
 Terminated at Sun Jun  1 17:46:42 2025
 Results reported at Sun Jun  1 17:46:42 2025
