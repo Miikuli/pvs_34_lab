@@ -1,0 +1,64 @@
+Sender: LSF System <lsfadmin@node5.kepler.hpc.local>
+Subject: Job 28070: <OMP_16_threads_run1> in cluster <kepler.lsf.hpc.local> Done
+
+Job <OMP_16_threads_run1> was submitted from host <mgr.kepler.hpc.local> by user <malkovsin.gmail.com> in cluster <kepler.lsf.hpc.local> at Sun Jun  1 17:44:00 2025
+Job was executed on host(s) <node5.kepler.hpc.local>, in queue <normal>, as user <malkovsin.gmail.com> in cluster <kepler.lsf.hpc.local> at Sun Jun  1 17:46:36 2025
+</home/malkovsin.gmail.com> was used as the home directory.
+</home/malkovsin.gmail.com/Documents/newlab3> was used as the working directory.
+Started at Sun Jun  1 17:46:36 2025
+Terminated at Sun Jun  1 17:47:52 2025
+Results reported at Sun Jun  1 17:47:52 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J OMP_16_threads_run1
+#BSUB -W 00:20
+#BSUB -n 1
+#BSUB -o logs/output_OMP_16_threads_run1_%J.out
+#BSUB -e logs/error_OMP_16_threads_run1_%J.err
+#BSUB -M 2GB
+
+export OMP_NUM_THREADS=16
+./exp_omp
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   45.15 sec.
+    Max Memory :                                 8 MB
+    Average Memory :                             5.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                20
+    Run time :                                   78 sec.
+    Turnaround time :                            232 sec.
+
+The output (if any) follows:
+
+Matrix size: 3x3
+Number of terms: 500000000 (+ Identity)
+Number of threads: 16
+Matrix: A (Initial) (3x3)
+[   0.1000   0.4000   0.2000 ]
+[   0.3000   0.0000   0.5000 ]
+[   0.6000   0.2000   0.1000 ]
+Calculation finished.
+Execution time: 29.773451 seconds
+Matrix: e^A (Result) (3x3)
+[   1.2638   0.4696   0.3450 ]
+[   0.5010   1.1409   0.5925 ]
+[   0.7374   0.3560   1.2528 ]
+
+
+PS:
+
+Read file <logs/error_OMP_16_threads_run1_28070.err> for stderr output of this job.
+
